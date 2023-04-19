@@ -1,0 +1,48 @@
+body{
+  background-color: black;
+  
+}
+
+h1{
+    color:green;
+    text-align:center;
+}
+
+h4{
+    background-color: white;
+    border-radius: 20px;
+    color: cadetblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+}
+
+.column {
+  float: left;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {  
+height: 180px;
+width: 180px;
+}
+
+.center {
+    margin: auto;
+    width: 75%;
+    border: 3px dotted green;
+    padding: 10px;
+}
+
+p{
+    color: white;
+    margin-left: 200px;
+}
+
